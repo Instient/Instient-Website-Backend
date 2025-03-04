@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobopenings",
+  "info": {
+    "singularName": "jobopening",
+    "pluralName": "jobopenings",
+    "displayName": "Jobopening",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "text"
+    },
+    "type": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "role": {
+      "type": "text"
+    },
+    "responsibility": {
+      "type": "text"
+    },
+    "skills": {
+      "type": "text"
+    },
+    "Qulaification": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Image_Thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

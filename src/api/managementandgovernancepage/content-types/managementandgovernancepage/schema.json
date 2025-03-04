@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "managementandgovernancepages",
+  "info": {
+    "singularName": "managementandgovernancepage",
+    "pluralName": "managementandgovernancepages",
+    "displayName": "Managementandgovernancepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "leadershipStructure": {
+      "type": "text"
+    },
+    "governanceModel": {
+      "type": "string"
+    },
+    "conclusion": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

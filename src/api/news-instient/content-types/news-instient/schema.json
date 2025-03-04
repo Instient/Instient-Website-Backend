@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_instients",
+  "info": {
+    "singularName": "news-instient",
+    "pluralName": "news-instients",
+    "displayName": "newsInstient",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "publish_date": {
+      "type": "date"
+    },
+    "header": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "content1": {
+      "type": "string"
+    },
+    "content1_answer": {
+      "type": "text"
+    },
+    "content2": {
+      "type": "string"
+    },
+    "content2_answer": {
+      "type": "text"
+    },
+    "conclusion": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
