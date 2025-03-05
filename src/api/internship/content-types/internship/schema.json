@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "internships",
+  "info": {
+    "singularName": "internship",
+    "pluralName": "internships",
+    "displayName": "Internship",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "role": {
+      "type": "text"
+    },
+    "responsibility": {
+      "type": "text"
+    },
+    "skills": {
+      "type": "text"
+    },
+    "Qulaification": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Image_Thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "cookiepolicypages",
+  "info": {
+    "singularName": "cookiepolicypage",
+    "pluralName": "cookiepolicypages",
+    "displayName": "Cookiepolicypage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "content1": {
+      "type": "string"
+    },
+    "content1_answer": {
+      "type": "string"
+    },
+    "content2": {
+      "type": "string"
+    },
+    "content2_answer": {
+      "type": "string"
+    },
+    "conclusion": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "whyjoininstients",
+  "info": {
+    "singularName": "whyjoininstient",
+    "pluralName": "whyjoininstients",
+    "displayName": "Whyjoininstient",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "content1": {
+      "type": "string"
+    },
+    "content1_answer": {
+      "type": "text"
+    },
+    "content2": {
+      "type": "string"
+    },
+    "content2_answer": {
+      "type": "text"
+    },
+    "conclusion": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
