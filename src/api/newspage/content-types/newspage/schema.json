@@ -4,7 +4,7 @@
   "info": {
     "singularName": "newspage",
     "pluralName": "newspages",
-    "displayName": "newspage",
+    "displayName": "Blogs",
     "description": ""
   },
   "options": {
@@ -41,14 +41,15 @@
       "type": "string"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true

@@ -18,9 +18,6 @@
     "header": {
       "type": "string"
     },
-    "Description": {
-      "type": "text"
-    },
     "content1": {
       "type": "string"
     },
@@ -33,10 +30,18 @@
     "content2_answer": {
       "type": "text"
     },
-    "conclusion": {
-      "type": "text"
-    },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Banner_Image1": {
       "allowedTypes": [
         "images",
         "files",
@@ -45,6 +50,28 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "Banner_Title1": {
+      "type": "string"
+    },
+    "Banner_Description1": {
+      "type": "string"
+    },
+    "Banner_Image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Banner_Title2": {
+      "type": "string"
+    },
+    "Banner_Description2": {
+      "type": "string"
     }
   }
 }

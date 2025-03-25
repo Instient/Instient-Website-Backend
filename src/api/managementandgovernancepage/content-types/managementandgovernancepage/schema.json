@@ -15,19 +15,34 @@
     "Title": {
       "type": "string"
     },
-    "Description": {
-      "type": "string"
-    },
-    "leadershipStructure": {
-      "type": "text"
-    },
     "governanceModel": {
       "type": "string"
     },
-    "conclusion": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "managementModel": {
       "type": "string"
     },
-    "Image": {
+    "Banner_Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Banner_Image2": {
       "allowedTypes": [
         "images",
         "files",

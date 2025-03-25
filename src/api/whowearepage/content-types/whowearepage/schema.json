@@ -48,22 +48,6 @@
       },
       "type": "string"
     },
-    "values": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "history": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "Image": {
       "type": "media",
       "multiple": false,
